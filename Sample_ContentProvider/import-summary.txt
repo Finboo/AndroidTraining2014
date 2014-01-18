@@ -1,0 +1,107 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\android_support_v4_7e772d560884ce1f8bf3222a5ac3c103.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Sample_ContentProvider.iml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* out\
+* out\production\
+* out\production\Sample_ContentProvider\
+* out\production\Sample_ContentProvider\Sample_ContentProvider.apk
+* out\production\Sample_ContentProvider\Sample_ContentProvider.unaligned.apk
+* out\production\Sample_ContentProvider\com\
+* out\production\Sample_ContentProvider\com\igates\
+* out\production\Sample_ContentProvider\com\igates\example\
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\BuildConfig.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\DatabaseHelper.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MainActivity$ThrottledLoaderListFragment$1.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MainActivity$ThrottledLoaderListFragment$2.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MainActivity$ThrottledLoaderListFragment.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MainActivity.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MainTable.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\MyContentProvider.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$attr.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$dimen.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$drawable.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$id.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$layout.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$menu.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$string.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R$style.class
+* out\production\Sample_ContentProvider\com\igates\example\samplecontentprovider\R.class
+* out\res-cache\
+* out\res-cache\Sample_ContentProvider\
+* out\res-cache\Sample_ContentProvider\drawable-hdpi\
+* out\res-cache\Sample_ContentProvider\drawable-hdpi\ic_launcher.png
+* out\res-cache\Sample_ContentProvider\drawable-mdpi\
+* out\res-cache\Sample_ContentProvider\drawable-mdpi\ic_launcher.png
+* out\res-cache\Sample_ContentProvider\drawable-xhdpi\
+* out\res-cache\Sample_ContentProvider\drawable-xhdpi\ic_launcher.png
+* out\res-cache\Sample_ContentProvider\drawable-xxhdpi\
+* out\res-cache\Sample_ContentProvider\drawable-xxhdpi\ic_launcher.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
