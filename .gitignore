@@ -40,6 +40,9 @@ proguard/
 .idea/tasks.xml
 .idea/datasources.xml
 .idea/dataSources.ids
+*.iws
+workspace.xml
+tasks.xml
 
 #################
 ## Eclipse
