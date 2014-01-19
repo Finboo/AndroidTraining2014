@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+    
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/nextHintOnDoneStage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:textSize="18dp"
+        android:id="@+id/textViewDoneStage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nClick OK to Continue" />
+    <Button 
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="OK"
+        android:id="@+id/doneStageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        />
+</LinearLayout>
