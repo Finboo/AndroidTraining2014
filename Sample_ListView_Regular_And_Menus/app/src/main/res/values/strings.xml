@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TODOlistSimpleActivity!</string>
+    <string name="app_name">MyNotesSimple</string>
+    <string name="add_new">Add Item</string>
+    <string name="remove">Remove Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    <string name="no_email_clients">There are no email clients installed.</string>
+    
+
+</resources>

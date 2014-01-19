@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">My Notes Application</string>
+  <string name="hello">My Notes!</string>
+  <string name="add_new">Añadir artículo</string>
+  <string name="remove">Eliminar elemento</string>
+  <string name="cancel">cancelar</string>
+  <string name="share">participación</string>
+  <string name="no_email_clients">No hay clientes de correo instalados.</string>
+</resources>
