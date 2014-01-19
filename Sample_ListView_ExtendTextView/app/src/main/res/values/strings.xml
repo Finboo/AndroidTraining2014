@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">My Notes!</string>
+  <string name="app_name">My Notes Application</string>
+  <string name="add_new">Add Item</string>
+  <string name="remove">Remove Item</string>
+  <string name="cancel">Cancel</string>
+</resources>
