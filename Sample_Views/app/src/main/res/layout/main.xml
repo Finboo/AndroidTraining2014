@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Dialog" >
+    </Button>
+
+    <!--
+	<Button android:layout_width="fill_parent" android:id="@+id/StopButton"
+		android:layout_height="wrap_content" android:text="Stop Dialog">
+	</Button>
+    -->
+
+    <Button
+        android:id="@+id/DatePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DatePicker" >
+    </Button>
+
+    <Button
+        android:id="@+id/ProgresButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress dialog" >
+    </Button>
+
+    <Button
+        android:id="@+id/switchToB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To AutoComplete" >
+    </Button>
+
+    <Button
+        android:id="@+id/switchToGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To GridView" >
+    </Button>
+
+    <Button
+        android:id="@+id/switchToWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To WebView" >
+    </Button>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
