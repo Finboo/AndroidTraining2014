@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file"
+        android:title="file">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+                <item
+                    android:id="@+id/create_new"
+                    android:checked="true"
+                    android:title="create_new"/>
+                <item
+                    android:id="@+id/open"
+                    android:checked="true"
+                    android:title="open"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
