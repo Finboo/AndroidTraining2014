@@ -1,14 +1,14 @@
 package com.igates.example.mapviewsample;
 
-import java.util.ArrayList;
-
 import android.app.AlertDialog;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
-import com.google.android.maps.MapActivity;
 import com.google.android.gms.maps.MapView;
+import com.google.android.maps.MapActivity;
 import com.google.android.maps.OverlayItem;
+
+import java.util.ArrayList;
 
 public class HelloGoogleMaps extends MapActivity
 {
